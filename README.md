@@ -1,5 +1,6 @@
 schekinah Bonane st10442381
  PURPOSE AND EXPLANATION
+ LINK: https://github.com/st10442381-SchekinahBonane/ST10442381_PRACTICUM.git
 
 The app allows users to input temperature data along with corresponding dates and weather conditions. It then provides functionality to view entered data and calculate the average temperature based on the recorded minimum and maximum temperatures. 
 
