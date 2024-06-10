@@ -114,6 +114,8 @@ Screenshot 2024![Uploading Screenshot 2024-06-10 122108.png…]()
 -10 120145](ht![Screenshot 2024-06-10 120022](https://github.com/st10442381-SchekinahBonane/ST10442381_PRACTICUM/assets/164514716/83b56ad5-6904-445a-9546-597097ea65e1)
 tps://github.com/st10442381-SchekinahBonane/ST10442381_PRACTICUM/assets/164514716/c1b2828c-209c-49d9-be0e-dcda168c338b)
 ![Screenshot 2024-06-10 114911](https://github.com/st10442381-SchekinahBonane/ST10442381_PRACTICUM/assets/164514716/59153e3f-4b69-4f79-8af4-d7763adf8a2c)
+![Screenshot 2024-06-10 131724](https://github.com/VCCT-IMAD5112-2024-G2/ST10442381_PRACTICUM/assets/164514716/0e9bedc6-be46-428e-bad6-2c5ca3cffae5)
+
 
 
  
