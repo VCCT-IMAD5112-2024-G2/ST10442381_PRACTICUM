@@ -115,6 +115,9 @@ Show message indicating no temperature data available
 ![Uploading Screenshot 2024-06-10 122108.png…]() code for my second screen 
 ![Uploading Screenshot 2024-06-10 122454.png…]() code for my third screen that codes to display all the information 
 
+REFERENCING:
+IIE, 2024, Introducction to Mobile Application Development [IMAD5111 Module Manual]. The Independent Institute of Education Unpublished.  
+
 
 
 
