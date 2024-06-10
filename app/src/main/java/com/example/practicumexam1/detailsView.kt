@@ -22,24 +22,29 @@ class DetailsView : AppCompatActivity() {
             view.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
+        // Initialize TextViews and Button
         detailsTextView = findViewById(R.id.detailsTextView)
         averageTextView = findViewById(R.id.averageTextView)
         backButton = findViewById(R.id.backBtn)
 
+        // Retrieve temperature data from intent
         val days = intent.getStringArrayListExtra("day") ?: ArrayList()
         val minTemps = intent.getIntegerArrayListExtra("minimum temperature") ?: ArrayList()
         val maxTemps = intent.getIntegerArrayListExtra("maximum temperature") ?: ArrayList()
         val weatherConditions = intent.getStringArrayListExtra("weather conditions") ?: ArrayList()
 
+
+        // Display details and calculate/display average temperature
         displayDetails(days, minTemps, maxTemps, weatherConditions)
         calculateAndDisplayAverage(minTemps, maxTemps)
 
+        // Set click listener for back button
         backButton.setOnClickListener {
             finish() // Navigate back to the previous screen
         }
     }
 
+    // Function to display temperature details
     private fun displayDetails(days: List<String>, minTemps: List<Int>, maxTemps: List<Int>, weatherConditions: List<String>) {
         val details = StringBuilder()
         for ((index, day) in days.withIndex()) {
@@ -51,6 +56,7 @@ class DetailsView : AppCompatActivity() {
         detailsTextView.text = details.toString()
     }
 
+    // Function to calculate and display average temperature
     private fun calculateAndDisplayAverage(minTemps: List<Int>, maxTemps: List<Int>) {
         if (minTemps.isNotEmpty() && maxTemps.isNotEmpty()) {
             val averageMinTemp = minTemps.average()

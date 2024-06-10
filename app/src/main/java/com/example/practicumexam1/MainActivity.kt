@@ -19,15 +19,18 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+        //initialise Buttons
         val startBtn: Button = findViewById(R.id.startBtn)
         val exitBtn: Button = findViewById(R.id.exitBtn)
 
+        // set click listener for start Button
         startBtn.setOnClickListener{
             val intent = Intent( this, MainScreen::class.java)
             startActivity(intent)
             finish()
         }
 
+        //set click listener for exit Button
         exitBtn.setOnClickListener {
             finish()
         }
