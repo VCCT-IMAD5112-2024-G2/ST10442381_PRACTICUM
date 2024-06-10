@@ -1,4 +1,5 @@
 schekinah Bonane st10442381
+the App/Repository is in the Master branch and not the main branch 
  PURPOSE AND EXPLANATION
  LINK: https://github.com/st10442381-SchekinahBonane/ST10442381_PRACTICUM.git
 
